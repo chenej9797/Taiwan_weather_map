@@ -1,0 +1,64 @@
+@import url(//fonts.googleapis.com/earlyaccess/cwtexhei.css);
+@import url("https://fonts.googleapis.com/css?family=Fjalla+One");
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #f6e3e9;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+.container {
+  position: relative;
+  width: 700px;
+  height: 700px;
+}
+#taiwanMap {
+  position: absolute;
+  height: 100%;
+  width: auto;
+  max-height: 700px;
+}
+.title_area {
+  position: absolute;
+  font-family: "Fjalla One", sans-serif;
+  color: #eb6e90;
+  width: 35%;
+  height: auto;
+  right: 0;
+  top:230px;
+}
+#umbrella {
+  position: relative;
+  fill: #dc6c89;
+  stroke: #171c61;
+  stroke-width: 3.5px;
+  width: 100px;
+}
+.title {
+  position: relative;
+  font-size:60px;
+  -webkit-text-stroke: 2px #161b61;
+  margin-bottom:20px;
+}
+
+.forcast {
+  font-family: cwTeXHei;
+  font-size: 18px;
+}
+
+#taiwanMap > path {
+  stroke: #161b61;
+  stroke-width: 2.5px;
+  fill: transparent;
+  transition: 0.5s;
+  cursor: pointer;
+}
+#taiwanMap > path:hover {
+  fill: #ffe100;
+  stroke-width: 1.5px;
+  transform: translate(-6px, -6px);
+}
