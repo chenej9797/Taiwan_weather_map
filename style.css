@@ -1,5 +1,4 @@
-@import url(//fonts.googleapis.com/earlyaccess/cwtexhei.css);
-@import url("https://fonts.googleapis.com/css?family=Fjalla+One");
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
 html,
 body {
   margin: 0;
@@ -10,6 +9,7 @@ body {
   display:flex;
   justify-content:center;
   align-items:center;
+  font-family: 'Ubuntu', sans-serif;
 }
 .container {
   position: relative;
@@ -24,7 +24,6 @@ body {
 }
 .title_area {
   position: absolute;
-  font-family: "Fjalla One", sans-serif;
   color: #eb6e90;
   width: 35%;
   height: auto;
@@ -46,7 +45,6 @@ body {
 }
 
 .forcast {
-  font-family: cwTeXHei;
   font-size: 18px;
 }
 
